@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import NestedComponentsView from '../views/NestedComponentsView.vue'
+import UIkitSortableView from '../views/UIkitSortableView.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/nested-components',
     name: 'nested-components',
     component: NestedComponentsView
+  },
+  {
+    path: '/uikit-sortable',
+    name: 'uikit-sortable',
+    component: UIkitSortableView
   },
   // {
   //   path: '/about',

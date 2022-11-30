@@ -2,7 +2,8 @@
   <div id="app">
     <nav>
       <router-link to="/">Home</router-link> |
-      <router-link to="/nested-components">Nested Components</router-link>
+      <router-link to="/nested-components">Nested Components</router-link> |
+      <router-link to="/uikit-sortable">UIkit - Sortable</router-link>
     </nav>
     <router-view/>
   </div>
