@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import AComponent from '../components/AComponent.vue'
+import AComponent from '../components/NestedComponents/AComponent.vue'
 export default {
   components: { AComponent },
 

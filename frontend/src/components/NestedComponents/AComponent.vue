@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import BComponent from './BComponent.vue'
+import BComponent from '../NestedComponents/BComponent.vue'
 export default {
   name: 'a-component',
   data() {
